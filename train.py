@@ -7,6 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 # 1. Cargar dataset
+
+print("Iniciando entrenamiento del modelo de Fórmula 1 para predecir si un piloto terminará en el podio...")
 df = pd.read_csv("data/processed/f1_dataset.csv")  # ajusta si tu archivo se llama diferente
 
 print("Dataset cargado:")
